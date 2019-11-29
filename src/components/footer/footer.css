@@ -1,15 +1,26 @@
 .footer-container {
-  background-color: lightblue;
 }
 
 .footer-center {
   font-size: small;
   color: #ffffff;
   text-align: center;
-  margin: 0;
+  margin-bottom: 0px;
+}
+
+.social-container {
+  display: flex;
+  justify-content: center;
+}
+.social-media-links {
+  max-width: 400px;
+  margin: 1rem 1rem 0rem 1rem;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .social-media-logo {
   max-width: 40px;
   max-height: 40px;
+  margin: 0rem 1rem 0rem 1rem;
 }

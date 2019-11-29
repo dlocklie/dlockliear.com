@@ -1,4 +1,3 @@
-import { Link } from "gatsby";
 import React from "react";
 import "./footer.css";
 import facebookLogo from "../../images/facebook.svg";
@@ -10,24 +9,31 @@ const Footer = () => (
   <footer>
     
     <div className="footer-container">
-      <div className="social-media-links">
-        <img 
-          src={facebookLogo} 
-          className="social-media-logo">
-        </img>
-        <img 
-          src={instagramLogo} 
-          className="social-media-logo">
-        </img>
-        <img 
-          src={twitterLogo} 
-          className="social-media-logo">
-        </img>
-        <img 
-          src={githubLogo} 
-          className="social-media-logo">
-        </img>
-        
+      <div className="social-container">
+        <div className="social-media-links">
+          <img 
+            src={facebookLogo}
+            onClick={() => window.open("https://www.facebook.com/drew.lockliear", "_blank")}
+            target="_blank"
+            className="social-media-logo"
+            fill="#fff">
+          </img>
+          <img 
+            src={instagramLogo}
+            onClick={() => window.open("https://www.instagram.com/d.lockli/", "_blank")} 
+            className="social-media-logo">
+          </img>
+          <img 
+            src={twitterLogo} 
+            onClick={() => window.open("https://twitter.com/d_lockli", "_blank")}
+            className="social-media-logo">
+          </img>
+          <img 
+            src={githubLogo} 
+            onClick={() => window.open("https://github.com/dlocklie", "_blank")}
+            className="social-media-logo">
+          </img>
+        </div>
       </div>
       <p className="footer-center">
         © {new Date().getFullYear()}, Developed by Drew Lockliear
