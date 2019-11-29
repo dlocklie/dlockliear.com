@@ -1,4 +1,15 @@
-.copyright-year {
+.footer-container {
+  background-color: lightblue;
+}
+
+.footer-center {
+  font-size: small;
   color: #ffffff;
   text-align: center;
+  margin: 0;
+}
+
+.social-media-logo {
+  max-width: 40px;
+  max-height: 40px;
 }
