@@ -36,10 +36,10 @@ const Footer = () => (
         </div>
       </div>
       <p className="footer-center">
-        © {new Date().getFullYear()}, Developed by Drew Lockliear
+        © {new Date().getFullYear()} Drew Lockliear. All rights reserved.
       </p>
       <p className="footer-center">
-        Built with <a href="https://www.gatsbyjs.org" target="_blank">Gatsby</a>
+        Built with <a href="https://www.gatsbyjs.org" target="_blank" className="gatsby-link">Gatsby</a>
       </p>
     </div>
   </footer>
