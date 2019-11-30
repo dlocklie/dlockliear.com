@@ -209,7 +209,6 @@ body {
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
-  padding: 1rem 1rem 1rem 1rem;
 }
 img {
   max-width: 100%;
