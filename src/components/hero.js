@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "@emotion/styled";
-import { Link, graphql, useStaticQuery } from 'gatsby';
 
 const ImageBackground = styled('div')`
   background-image: url('/images/downtown-austin-river.jpg');
@@ -26,6 +25,22 @@ const TextBox = styled('div')`
   h3 {
     margin-top: 0;
   }
+
+  button {
+    background: none;
+    width: 8rem;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+  }
+
+  a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+  }
 `;
 
 const Hero = () => {
@@ -33,7 +48,10 @@ const Hero = () => {
     <ImageBackground>
       <TextBox>
         <h1>Hey, I'm Drew Lockliear</h1>
-        <h3>Your local web developer in Austin, Tx</h3>
+        <h3>Let's build something great together</h3>
+        <a href="mailto:dlockliear@gmail.com" target="_blank">
+          <button>CONTACT ME</button>
+        </a>
       </TextBox>
 
     </ImageBackground>
