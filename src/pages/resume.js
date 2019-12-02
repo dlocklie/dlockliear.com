@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "@emotion/styled";
+import Layout from "../components/layout";
 
 const TextBox = styled('div')`
   margin: 1rem 1rem 1rem 1rem;
@@ -34,7 +35,8 @@ const TextBox = styled('div')`
 `
 
 const Resume = () => (
-  <TextBox>
+  <Layout>
+    <TextBox>
     <div className="header-container">
       <h1>DREW LOCKLIEAR</h1>
       <p>Full Stack Software Engineer</p>
@@ -153,17 +155,18 @@ const Resume = () => (
       </p>
       <p>2019</p>
     </div>
-    <div style={{display: `flex`}}>
-      <p>
-        <span className="font-bold">
-          Kennesaw State University |
-        </span>
-        Mechanical Engineering
-      </p>
-      <p>2014 - 2017</p>
-    </div>
-    
-  </TextBox>
+      <div style={{display: `flex`}}>
+        <p>
+          <span className="font-bold">
+            Kennesaw State University |
+          </span>
+          Mechanical Engineering
+        </p>
+        <p>2014 - 2017</p>
+      </div>
+    </TextBox>
+  </Layout>
+  
 )
 
 export default Resume;
