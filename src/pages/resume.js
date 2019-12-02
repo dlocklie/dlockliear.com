@@ -2,12 +2,23 @@ import React from "react";
 import styled from "@emotion/styled";
 
 const TextBox = styled('div')`
+  
 
   h1 {
     text-align: center;
   }
 
+  h3 {
+    text-align: center;
+  }
 
+  p {
+
+  }
+
+  .horz-line {
+    
+  }
 `
 
 const Resume = () => (
@@ -26,7 +37,7 @@ const Resume = () => (
     <p>Libraries | Stripe, Material Design, Material-UI, Reactstrap, Font Awesome, Bootstrap, Faker.js</p>
 
     <h3>SOFTWARE ENGINEERING APPLICATIONS</h3>
-    <div></div>
+    <div className="horz-line"></div>
     <p>XCC (Cross Site Consolidated Checkout) | Angular 8, Nest.js, TypeScript, RxJs, Nx, Material Design</p>
     <p>Developed a dynamic signup and checkout application with shared customizable components to be used across www.idrivesafely.com, www.driversed.com and www.aceable.com</p>
     <ul>
