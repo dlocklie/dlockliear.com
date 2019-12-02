@@ -14,9 +14,15 @@ const NavLink = styled(Link)`
 `;
 
 const Header = () => (
-  <header>
-    <NavLink to="/">Home</NavLink>
-    <NavLink to="/resume">Resume</NavLink>
+  <header 
+    css={css`
+
+    `}
+  > 
+    <nav>
+      <NavLink to="/">HOME</NavLink>
+      <NavLink to="/resume">RESUME</NavLink>
+    </nav>
   </header>
 )
 
