@@ -1,42 +1,24 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
+import styled from "@emotion/styled";
+import { css } from "@emotion/core";
+import { Link } from "gatsby"
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
+const NavLink = styled(Link)`
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1;
+  margin: 0 0.5rem 0 0;
+  padding: 0.25rem;
+  text-decoration: none;
+`;
+
+const Header = () => (
+  <header>
+    <NavLink to="/">Home</NavLink>
+    <NavLink to="/resume">Resume</NavLink>
   </header>
 )
 
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Header
