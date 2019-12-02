@@ -38,6 +38,7 @@ const TextBox = styled('div')`
 const Resume = () => (
   <>
     <Header />
+    <br />
     <Layout>
       <TextBox>
       <div className="header-container">
