@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 import "./footer.css";
 import facebookLogo from "../../images/facebook.svg";
 import instagramLogo from "../../images/instagram.svg";
