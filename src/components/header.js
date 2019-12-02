@@ -11,6 +11,7 @@ const NavLink = styled(Link)`
   margin: 0 0.5rem 0 0;
   padding: 0.25rem;
   text-decoration: none;
+  float: right;
 `;
 
 const Header = () => (
@@ -20,8 +21,8 @@ const Header = () => (
     `}
   > 
     <nav>
-      <NavLink to="/">HOME</NavLink>
       <NavLink to="/resume">RESUME</NavLink>
+      <NavLink to="/">HOME</NavLink>
     </nav>
   </header>
 )
