@@ -19,11 +19,15 @@ const Header = () => (
 
     `}
   > 
-    <nav>
+  <Button variant="contained"></Button>
+  
+    {/* <nav>
       <NavLink to="/">HOME</NavLink>
       <NavLink to="/about">ABOUT</NavLink>
       <NavLink to="/resume">RESUME</NavLink>
-    </nav>
+    </nav> */}
+
+
   </header>
 )
 
