@@ -8,15 +8,22 @@ const NavLink = styled(Link)`
   font-size: 1rem;
   font-weight: normal;
   line-height: 1;
-  margin: 0 0.5rem 0 0;
+  margin: 1rem 1rem 0 0;
   padding: 0.25rem;
   text-decoration: none;
 `;
 
 const Header = () => (
-  <header>
-    <NavLink to="/">Home</NavLink>
-    <NavLink to="/resume">Resume</NavLink>
+  <header 
+    css={css`
+
+    `}
+  > 
+    <nav>
+      <NavLink to="/">HOME</NavLink>
+      <NavLink to="/about">ABOUT</NavLink>
+      <NavLink to="/resume">RESUME</NavLink>
+    </nav>
   </header>
 )
 
