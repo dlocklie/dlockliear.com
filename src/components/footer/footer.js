@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "gatsby";
 import "./footer.css";
 import facebookLogo from "../../images/facebook.svg";
 import instagramLogo from "../../images/instagram.svg";
@@ -12,25 +11,28 @@ const Footer = () => (
     <div className="footer-container">
       <div className="social-container">
         <div className="social-media-links">
-          <img 
+          <img
             src={facebookLogo}
+            alt="facebook logo icon"
             onClick={() => window.open("https://www.facebook.com/drew.lockliear", "_blank")}
-            target="_blank"
             className="social-media-logo"
             fill="#fff">
           </img>
           <img 
             src={instagramLogo}
+            alt="instagram logo icon"
             onClick={() => window.open("https://www.instagram.com/d.lockli/", "_blank")} 
             className="social-media-logo">
           </img>
           <img 
-            src={twitterLogo} 
+            src={twitterLogo}
+            alt="twitter logo icon"
             onClick={() => window.open("https://twitter.com/d_lockli", "_blank")}
             className="social-media-logo">
           </img>
           <img 
-            src={githubLogo} 
+            src={githubLogo}
+            alt="github logo icon"
             onClick={() => window.open("https://github.com/dlocklie", "_blank")}
             className="social-media-logo">
           </img>

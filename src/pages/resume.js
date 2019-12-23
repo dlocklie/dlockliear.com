@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/layout";
-import Header from "../components/header";
+import Header from "../components/header/header";
 import ResumeHeader from '../components/resume/resume-header';
 import ResumeTechSkills from '../components/resume/resume-tech-skills';
 import ResumeApplications from '../components/resume/resume-applications';
@@ -10,7 +10,7 @@ import ResumeEducation from '../components/resume/resume-education';
 
 const Resume = () => (
   <>
-    <Header />
+    <Header></Header>
     <br />
     <Layout>
       <ResumeHeader></ResumeHeader>
@@ -22,7 +22,6 @@ const Resume = () => (
       <ResumeExperience></ResumeExperience>
       <br />
       <ResumeEducation></ResumeEducation>
-      
     </Layout>
   </>
   
