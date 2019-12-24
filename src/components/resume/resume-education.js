@@ -1,10 +1,10 @@
 import React from 'react';
 import './resume-education.css';
-import Paper from '@material-ui/core/Paper';
+import Container from '@material-ui/core/Container';
 
 export default function ResumeEducation() {
   return (
-    <Paper>
+    <Container>
      <h3>EDUCATION</h3>
       <div></div>
       <div style={{display: `flex`}}>
@@ -25,6 +25,6 @@ export default function ResumeEducation() {
           </p>
           <p>2014 - 2017</p>
         </div>
-    </Paper>
+    </Container>
   )
 }

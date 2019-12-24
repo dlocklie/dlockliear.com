@@ -1,10 +1,10 @@
 import React from 'react';
 import './resume-tech-skills.css';
-import Paper from '@material-ui/core/Paper';
+import Container from '@material-ui/core/Container';
 
 export default function ResumeTechSkills() {
   return (
-    <Paper>
+    <Container>
        <h3>TECHNICAL SKILLS</h3>
       <div></div>
       <p>
@@ -38,6 +38,6 @@ export default function ResumeTechSkills() {
         Stripe, Material Design, Material-UI, Reactstrap, Font Awesome, Bootstrap, Faker.js
       </p>
       <br />
-    </Paper>
+    </Container>
   )
 }

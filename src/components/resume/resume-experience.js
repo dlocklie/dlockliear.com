@@ -1,10 +1,10 @@
 import React from 'react';
 import './resume-experience.css';
-import Paper from '@material-ui/core/Paper';
+import Container from '@material-ui/core/Container';
 
 export default function ResumeExperience() {
   return (
-    <Paper>
+    <Container>
        <h3>PROFESSIONAL EXPERIENCE</h3>
       <div></div>
       <br />
@@ -40,6 +40,6 @@ export default function ResumeExperience() {
         <li>Coordinated the design and construction of the new company website</li>
         <li>Assembled modular CAD part catalog and initiated automated fabrication processes</li>
       </ul>
-    </Paper>
+    </Container>
   )
 }

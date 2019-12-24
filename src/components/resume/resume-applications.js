@@ -1,10 +1,10 @@
 import React from 'react';
 import './resume-applications.css';
-import Paper from '@material-ui/core/Paper';
+import Container from '@material-ui/core/Container';
 
 export default function ResumeApplications() {
   return (
-    <Paper>
+    <Container>
       <h3>SOFTWARE ENGINEERING APPLICATIONS</h3>
       <div className="horz-line"></div>
       <p>
@@ -33,6 +33,6 @@ export default function ResumeApplications() {
         <li>Tailored Material-UI components and leveraged grid to adapt screen size and orientation across layouts</li>
         <li>Designed seamless and intuitive navigation component which conditionally renders dynamic content</li>
       </ul>
-    </Paper>
+    </Container>
   )
 }
