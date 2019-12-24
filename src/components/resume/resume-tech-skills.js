@@ -5,39 +5,73 @@ import Container from '@material-ui/core/Container';
 export default function ResumeTechSkills() {
   return (
     <Container>
-       <h3>TECHNICAL SKILLS</h3>
-      <div></div>
-      <p>
-        <span className="font-bold">
-          Front End | 
-        </span>
-        JavaScript (ES5 and ES6), TypeScript, Angular 8, React, HTML5, CSS3, Sass, Redux, Java
-      </p>
-      <p>
-        <span className="font-bold">
-          Back End |
-        </span>
-        Node.js, Nest.js, Express, GraphQL, PostgreSQL, MongoDB, MySQL, MariaDB, RESTful API Development
-      </p>
-      <p>
-        <span className="font-bold">
-          Testing/Deployment |     
-        </span> 
-        Jest, Mocha, Chai, AWS: EC2 / RDS / S3
-      </p>
-      <p>
-        <span className="font-bold">
-          Developer Tools |
-        </span>  
-        Vim, Git, npm, Nx, Webpack, Babel, Agile Methodology, Scrum, TDD
-      </p>
-      <p>
-        <span className="font-bold">
-          Libraries |
-        </span>
-        Stripe, Material Design, Material-UI, Reactstrap, Font Awesome, Bootstrap, Faker.js
-      </p>
-      <br />
+      <h3>Technical Skills</h3>
+
+      <div className="skill-container">
+        <h4>Front End:</h4>
+        <div className="wrap-container">
+          <p>Angular 8, </p>
+          <p>CSS3, </p>
+          <p>HTML5, </p>
+          <p>JavaScript, </p>
+          <p>React, </p>
+          <p>Sass, </p>
+          <p>TypeScript</p>
+        </div>
+      </div>
+
+      <div className="skill-container">
+        <h4>Back End:</h4>
+        <div className="wrap-container">
+          <p>Express.js, </p>
+          <p>GraphQL, </p>
+          <p>Java, </p>
+          <p>MariaDB, </p>
+          <p>MongoDB, </p>
+          <p>MySQL, </p>
+          <p>Nest.js, </p>
+          <p>Node.js, </p>
+          <p>PostgreSQL</p>
+        </div>
+      </div>
+
+      <div className="skill-container">
+        <h4>Testing/Deployment:</h4>
+        <div className="wrap-container">
+          <p>AWS: EC2 / RDS / S3, </p>
+          <p>Chai, </p>
+          <p>Jest,</p>
+          <p>Mocha, </p>
+          <p>Netlify</p>
+        </div>
+      </div>
+      
+      <div className="skill-container">
+        <h4>Developer Tools:</h4>
+        <div className="wrap-container">
+          <p>Agile Methodology, </p>
+          <p>Babel, </p>
+          <p>Git, </p>
+          <p>Jira, </p>
+          <p>npm, </p>
+          <p>Nx, </p>
+          <p>Scrum, </p>
+          <p>TDD, </p>
+          <p>Webpack</p>
+        </div>
+      </div>
+      
+      <div className="skill-container">
+        <h4>Libraries</h4>
+        <div className="wrap-container">
+          <p>Bootstrap, </p>
+          <p>Font Awesome, </p>
+          <p>Material-UI, </p>
+          <p>Reactstrap, </p>
+          <p>RxJS, </p>
+          <p>Stripe</p>
+        </div>
+      </div>
     </Container>
   )
 }
