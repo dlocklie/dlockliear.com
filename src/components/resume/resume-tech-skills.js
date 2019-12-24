@@ -1,6 +1,22 @@
 import React from 'react';
 import './resume-tech-skills.css';
 import Container from '@material-ui/core/Container';
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles(theme => ({
+  root: {
+    padding: theme.spacing(1),
+    [theme.breakpoints.down('sm')]: {
+      backgroundColor: theme.palette.secondary.main,
+    },
+    [theme.breakpoints.up('md')]: {
+      backgroundColor: theme.palette.primary.main,
+    },
+    [theme.breakpoints.up('lg')]: {
+      backgroundColor: theme.palette.primary.main,
+    },
+  },
+}));
 
 export default function ResumeTechSkills() {
   return (
@@ -8,7 +24,7 @@ export default function ResumeTechSkills() {
       <h3>Technical Skills</h3>
 
       <div className="skill-container">
-        <h4>Front End:</h4>
+        <h4>Front End</h4>
         <div className="wrap-container">
           <p>Angular 8, </p>
           <p>CSS3, </p>
@@ -21,7 +37,7 @@ export default function ResumeTechSkills() {
       </div>
 
       <div className="skill-container">
-        <h4>Back End:</h4>
+        <h4>Back End</h4>
         <div className="wrap-container">
           <p>Express.js, </p>
           <p>GraphQL, </p>
@@ -36,7 +52,7 @@ export default function ResumeTechSkills() {
       </div>
 
       <div className="skill-container">
-        <h4>Testing/Deployment:</h4>
+        <h4>Testing/Deployment</h4>
         <div className="wrap-container">
           <p>AWS: EC2 / RDS / S3, </p>
           <p>Chai, </p>
@@ -47,7 +63,7 @@ export default function ResumeTechSkills() {
       </div>
       
       <div className="skill-container">
-        <h4>Developer Tools:</h4>
+        <h4>Developer Tools</h4>
         <div className="wrap-container">
           <p>Agile Methodology, </p>
           <p>Babel, </p>
@@ -64,6 +80,7 @@ export default function ResumeTechSkills() {
       <div className="skill-container">
         <h4>Libraries</h4>
         <div className="wrap-container">
+          <p>Angular Material, </p>
           <p>Bootstrap, </p>
           <p>Font Awesome, </p>
           <p>Material-UI, </p>
