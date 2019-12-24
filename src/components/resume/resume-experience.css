@@ -1,0 +1,10 @@
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.job-desc {
+  text-align: left;
+  margin: 1rem 0 1rem 0;
+  font-style: italic;
+}

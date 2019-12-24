@@ -6,6 +6,7 @@ import ResumeTechSkills from '../components/resume/resume-tech-skills';
 import ResumeApplications from '../components/resume/resume-applications';
 import ResumeExperience from '../components/resume/resume-experience';
 import ResumeEducation from '../components/resume/resume-education';
+import Paper from '@material-ui/core/Paper';
 
 
 const Resume = () => (
@@ -13,15 +14,13 @@ const Resume = () => (
     <Header></Header>
     <br />
     <Layout>
-      <ResumeHeader></ResumeHeader>
-      <br/>
-      <ResumeTechSkills></ResumeTechSkills>
-      <br />
-      <ResumeApplications></ResumeApplications>
-      <br />
-      <ResumeExperience></ResumeExperience>
-      <br />
-      <ResumeEducation></ResumeEducation>
+      <Paper>
+        <ResumeHeader></ResumeHeader>
+        <ResumeTechSkills></ResumeTechSkills>
+        <ResumeApplications></ResumeApplications>
+        <ResumeExperience></ResumeExperience>
+        <ResumeEducation></ResumeEducation>
+      </Paper>
     </Layout>
   </>
   
