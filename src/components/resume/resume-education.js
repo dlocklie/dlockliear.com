@@ -5,26 +5,19 @@ import Container from '@material-ui/core/Container';
 export default function ResumeEducation() {
   return (
     <Container>
-     <h3>EDUCATION</h3>
-      <div></div>
-      <div style={{display: `flex`}}>
-        <p>
-          <span className="font-bold">
-          Hack Reactor |
-          </span>
-          Advanced Software Engineering Immersive Program
-        </p>
+      <h3>Education</h3>
+
+      <div className="edu-container">
+        <h4>Hack Reactor</h4>
+        <p>Advanced Software Engineering Program</p>
         <p>2019</p>
       </div>
-        <div style={{display: `flex`}}>
-          <p>
-            <span className="font-bold">
-              Kennesaw State University |
-            </span>
-            Mechanical Engineering
-          </p>
-          <p>2014 - 2017</p>
-        </div>
+
+      <div className="edu-container">
+        <h4>Kennesaw State University</h4>
+        <p>Mechanical Engineering</p>
+        <p>2013 - 2017</p>
+      </div>
     </Container>
   )
 }

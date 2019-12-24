@@ -5,7 +5,7 @@ import Container from '@material-ui/core/Container';
 export default function ResumeApplications() {
   return (
     <Container>
-      <h3>SOFTWARE ENGINEERING APPLICATIONS</h3>
+      <h3>Software Engineering Applications</h3>
       <div className="horz-line"></div>
       <h4>XCC (Cross Site Consolidated Checkout)</h4>
       <p>Angular 8, Nest.js, TypeScript, RxJs, Nx, Angular Material</p>
